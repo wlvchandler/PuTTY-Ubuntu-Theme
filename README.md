@@ -1,6 +1,6 @@
 ##Ubtuntu theme for PuTTY client
-
-If you want to manually edit from the PuTTY configuration window:
+###Important -- the path in the `.reg` file needs to be updated 
+###To manually apply theme from the PuTTY configuration window:
   - Make sure you have a saved session loaded
   - On the left, go to Window -> Appearance
     - Change font. PuTTY doesn't have Mono, so I use consolas, 10pt. Lucinda Console may be closer.
