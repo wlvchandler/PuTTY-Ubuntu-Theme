@@ -1,4 +1,4 @@
-# Ubtuntu theme for PuTTY client
+# Ubuntu theme for PuTTY client
 
 ## Important -- the path in the `.reg` file needs to be updated 
 
@@ -33,3 +33,14 @@ ANSI Cyan|   6 | 152| 154
 ANSI Cyan Bold|  52 | 226| 226
 ANSI White| 211 | 215| 207
 ANSI White Bold| 238 | 238| 236
+
+## To apply theme for all PuTTY sessions
+  - Enable execution of PowerShell scripts
+    ```
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    ```
+
+  - Open PowerShell and execute the script
+    ```
+    ./putty-ubuntu-all-sessions.ps1
+    ```
